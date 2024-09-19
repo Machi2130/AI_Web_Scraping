@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.stApp {
+    background: linear-gradient(135deg, #1a5ec5 0%, #091e3e 100%);
+}
+
+.css-1d391kg {
+    padding-top: 3rem;
+}
+
+.stButton>button {
+    background-color: #4CAF50;
+    color: rgb(14, 4, 4);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+/* Add this to your existing style.css file */
+
+.parsing-description {
+    background-color: #f0f8ff;
+    border-left: 4px solid #4CAF50;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 0 5px 5px 0;
+    font-size: 14px;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.parsing-description:hover {
+    background-color: #e6f3ff;
+    transform: translateX(5px);
+}
+
+.stButton>button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.card {
+    background-color: rgb(7, 90, 104);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
